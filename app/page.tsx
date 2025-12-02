@@ -27,7 +27,7 @@ export default function HuntingLicenseLanding() {
             <Link href="#" className="hover:opacity-80 transition-opacity">
               <Image src="/images/app-store-badge.svg" alt="App Storeでダウンロード" width={120} height={40} />
             </Link>
-            <Link href="#" className="hover:opacity-80 transition-opacity">
+            <Link href="https://play.google.com/store/apps/details?id=com.xemwoo.hunter_test&pcampaignid=web_share" className="hover:opacity-80 transition-opacity">
               <Image src="/images/google-play-badge.png" alt="Google Playで手に入れよう" width={135} height={40} />
             </Link>
           </div>
@@ -53,7 +53,7 @@ export default function HuntingLicenseLanding() {
                 <Link href="#" className="hover:opacity-80 transition-opacity">
                   <Image src="/images/app-store-badge.svg" alt="App Storeでダウンロード" width={160} height={53} />
                 </Link>
-                <Link href="#" className="hover:opacity-80 transition-opacity">
+                <Link href="https://play.google.com/store/apps/details?id=com.xemwoo.hunter_test&pcampaignid=web_share" className="hover:opacity-80 transition-opacity">
                   <Image src="/images/google-play-badge.png" alt="Google Playで手に入れよう" width={180} height={53} />
                 </Link>
               </div>
@@ -289,7 +289,7 @@ export default function HuntingLicenseLanding() {
               <Link href="#" className="hover:opacity-80 transition-opacity">
                 <Image src="/images/app-store-badge.svg" alt="App Storeでダウンロード" width={180} height={60} />
               </Link>
-              <Link href="#" className="hover:opacity-80 transition-opacity">
+              <Link href="https://play.google.com/store/apps/details?id=com.xemwoo.hunter_test&pcampaignid=web_share" className="hover:opacity-80 transition-opacity">
                 <Image src="/images/google-play-badge.png" alt="Google Playで手に入れよう" width={200} height={60} />
               </Link>
             </div>
