@@ -49,7 +49,10 @@ export default function StructuredData() {
       "price": "0",
       "priceCurrency": "JPY"
     },
-    "downloadUrl": "https://play.google.com/store/apps/details?id=com.xemwoo.hunter_test",
+    "downloadUrl": [
+      "https://apps.apple.com/jp/app/%E7%8B%A9%E7%8C%9F%E5%85%8D%E8%A8%B1%E4%BE%8B%E9%A1%8C%E9%9B%86/id6747627069",
+      "https://play.google.com/store/apps/details?id=com.xemwoo.hunter_test"
+    ],
     "aggregateRating": {
       "@type": "AggregateRating",
       "ratingValue": "4.5",

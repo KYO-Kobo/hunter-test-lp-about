@@ -25,7 +25,7 @@ export default function HuntingLicenseLanding() {
             </div>
           </div>
           <div className="flex space-x-2">
-            <Link href="#" className="hover:opacity-80 transition-opacity">
+            <Link href="https://apps.apple.com/jp/app/%E7%8B%A9%E7%8C%9F%E5%85%8D%E8%A8%B1%E4%BE%8B%E9%A1%8C%E9%9B%86/id6747627069" className="hover:opacity-80 transition-opacity">
               <Image src="/images/app-store-badge.svg" alt="App Storeでダウンロード" width={120} height={40} loading="lazy" />
             </Link>
             <Link href="https://play.google.com/store/apps/details?id=com.xemwoo.hunter_test&pcampaignid=web_share" className="hover:opacity-80 transition-opacity">
@@ -51,7 +51,7 @@ export default function HuntingLicenseLanding() {
                 <strong>全猟種に対応</strong>した本格的な<strong>学習アプリ</strong>です。
               </p>
               <div className="flex flex-col sm:flex-row gap-4 items-center">
-                <Link href="#" className="hover:opacity-80 transition-opacity app-badge">
+                <Link href="https://apps.apple.com/jp/app/%E7%8B%A9%E7%8C%9F%E5%85%8D%E8%A8%B1%E4%BE%8B%E9%A1%8C%E9%9B%86/id6747627069" className="hover:opacity-80 transition-opacity app-badge">
                   <Image src="/images/app-store-badge.svg" alt="App Storeでダウンロード" width={160} height={53} loading="lazy" />
                 </Link>
                 <Link href="https://play.google.com/store/apps/details?id=com.xemwoo.hunter_test&pcampaignid=web_share" className="hover:opacity-80 transition-opacity app-badge">
@@ -289,7 +289,7 @@ export default function HuntingLicenseLanding() {
             </h2>
             <p className="text-xl text-green-100">無料でダウンロードして、すぐに学習を始められます</p>
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
-              <Link href="#" className="hover:opacity-80 transition-opacity">
+              <Link href="https://apps.apple.com/jp/app/%E7%8B%A9%E7%8C%9F%E5%85%8D%E8%A8%B1%E4%BE%8B%E9%A1%8C%E9%9B%86/id6747627069" className="hover:opacity-80 transition-opacity">
                 <Image src="/images/app-store-badge.svg" alt="App Storeでダウンロード" width={180} height={60} />
               </Link>
               <Link href="https://play.google.com/store/apps/details?id=com.xemwoo.hunter_test&pcampaignid=web_share" className="hover:opacity-80 transition-opacity">
