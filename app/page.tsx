@@ -17,6 +17,7 @@ export default function HuntingLicenseLanding() {
               width={40}
               height={40}
               className="rounded-lg"
+              priority
             />
             <div>
               <h1 className="font-bold text-lg text-gray-900">狩猟免許例題集</h1>
@@ -25,36 +26,36 @@ export default function HuntingLicenseLanding() {
           </div>
           <div className="flex space-x-2">
             <Link href="#" className="hover:opacity-80 transition-opacity">
-              <Image src="/images/app-store-badge.svg" alt="App Storeでダウンロード" width={120} height={40} />
+              <Image src="/images/app-store-badge.svg" alt="App Storeでダウンロード" width={120} height={40} loading="lazy" />
             </Link>
             <Link href="https://play.google.com/store/apps/details?id=com.xemwoo.hunter_test&pcampaignid=web_share" className="hover:opacity-80 transition-opacity">
-              <Image src="/images/google-play-badge.png" alt="Google Playで手に入れよう" width={135} height={40} />
+              <Image src="/images/google-play-badge.png" alt="Google Playで手に入れよう" width={135} height={40} loading="lazy" />
             </Link>
           </div>
         </div>
       </header>
 
       {/* Hero Section */}
-      <section className="py-16 md:py-24">
+      <section className="py-16 md:py-24 hero-section">
         <div className="container mx-auto px-4">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
               <Badge className="bg-green-100 text-green-800 hover:bg-green-100">狩猟免許取得をサポート</Badge>
-              <h1 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight">
-                スキマ時間で合格へ！
+              <h1 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight japanese-text">
+                <strong>スキマ時間で合格へ！</strong>
                 <br />
-                <span className="text-green-600">狩猟免許の例題集アプリ</span>
+                <span className="text-green-600"><strong>狩猟免許の例題集アプリ</strong></span>
               </h1>
-              <p className="text-xl text-gray-600 leading-relaxed">
-                豊富な問題数とリアルな模擬試験で、あなたの狩猟免許取得を徹底サポート。
-                全猟種に対応した本格的な学習アプリです。
+              <p className="text-xl text-gray-600 leading-relaxed japanese-text">
+                <strong>豊富な問題数</strong>と<strong>リアルな模擬試験</strong>で、あなたの<strong>狩猟免許取得を徹底サポート</strong>。
+                <strong>全猟種に対応</strong>した本格的な<strong>学習アプリ</strong>です。
               </p>
               <div className="flex flex-col sm:flex-row gap-4 items-center">
-                <Link href="#" className="hover:opacity-80 transition-opacity">
-                  <Image src="/images/app-store-badge.svg" alt="App Storeでダウンロード" width={160} height={53} />
+                <Link href="#" className="hover:opacity-80 transition-opacity app-badge">
+                  <Image src="/images/app-store-badge.svg" alt="App Storeでダウンロード" width={160} height={53} loading="lazy" />
                 </Link>
-                <Link href="https://play.google.com/store/apps/details?id=com.xemwoo.hunter_test&pcampaignid=web_share" className="hover:opacity-80 transition-opacity">
-                  <Image src="/images/google-play-badge.png" alt="Google Playで手に入れよう" width={180} height={53} />
+                <Link href="https://play.google.com/store/apps/details?id=com.xemwoo.hunter_test&pcampaignid=web_share" className="hover:opacity-80 transition-opacity app-badge">
+                  <Image src="/images/google-play-badge.png" alt="Google Playで手に入れよう" width={180} height={53} loading="lazy" />
                 </Link>
               </div>
             </div>
@@ -66,6 +67,7 @@ export default function HuntingLicenseLanding() {
                   width={200}
                   height={400}
                   className="rounded-2xl shadow-2xl"
+                  loading="lazy"
                 />
                 <Image
                   src="/images/results-screen.png"
@@ -73,6 +75,7 @@ export default function HuntingLicenseLanding() {
                   width={200}
                   height={400}
                   className="rounded-2xl shadow-2xl mt-8"
+                  loading="lazy"
                 />
               </div>
             </div>

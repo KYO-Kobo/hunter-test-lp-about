@@ -1,6 +1,13 @@
 import Link from "next/link"
 import { ArrowLeft, Mail } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import BreadcrumbSEO from "@/components/ui/breadcrumb-seo"
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'プライバシーポリシー | 狩猟免許例題集',
+  description: '狩猟免許例題集アプリのプライバシーポリシー。利用者情報の取り扱いについて詳しく説明しています。',
+}
 
 export default function PrivacyPolicy() {
   return (
@@ -17,6 +24,7 @@ export default function PrivacyPolicy() {
 
       {/* Content */}
       <main className="container mx-auto px-4 py-12 max-w-4xl">
+        <BreadcrumbSEO items={[{ label: "プライバシーポリシー" }]} className="mb-8" />
         <div className="bg-white rounded-lg shadow-lg p-8 md:p-12">
           <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">プライバシーポリシー</h1>
 

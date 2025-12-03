@@ -2,8 +2,46 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Web Fonts with font-display: swap for better performance */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;600;700&display=swap');
+
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Noto Sans JP', 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
+}
+
+/* Optimize rendering performance */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+/* Improve Core Web Vitals */
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+/* Critical CSS for above-the-fold content */
+.hero-section {
+  will-change: transform;
+  transform: translateZ(0);
+}
+
+/* Reduce layout shift */
+.app-badge {
+  aspect-ratio: 3/1;
+  display: block;
+}
+
+/* Optimize for Japanese text rendering */
+.japanese-text {
+  font-feature-settings: "palt" 1;
+  letter-spacing: 0.02em;
 }
 
 @layer utilities {

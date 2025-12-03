@@ -1,0 +1,6 @@
+User-Agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /api/
+
+Sitemap: https://hunter-test.xemwoo.com/sitemap.xml
